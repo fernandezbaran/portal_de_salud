@@ -1,7 +1,11 @@
 /* Estilos generales */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+
 
 blockquote.quote {
-  font: 24px/30px italic Times, serif;
+  font: font-family: 'Roboto', sans-serif;
+  font-size: 20px;
   padding-left: 70px;
   padding-top: 18px;
   padding-bottom: 18px;
@@ -17,7 +21,8 @@ blockquote.quote {
 }
 
 blockquote.articulo {
-  font: 24px/30px italic Times, serif;
+  font: font-family: 'Roboto', sans-serif;
+  font-size: 20px;
   padding-left: 70px;
   padding-top: 18px;
   padding-bottom: 18px;
@@ -33,7 +38,8 @@ blockquote.articulo {
 }
 
 blockquote.turno {
-  font: 24px/30px italic Times, serif;
+  font: font-family: 'Roboto', sans-serif;
+  font-size: 20px;
   padding-left: 70px;
   padding-top: 18px;
   padding-bottom: 18px;
@@ -50,7 +56,8 @@ blockquote.turno {
 
 
 blockquote.medicamentos {
-  font: 24px/30px italic Times, serif;
+  font: font-family: 'Roboto', sans-serif;
+  font-size: 20px;
   padding-left: 70px;
   padding-top: 18px;
   padding-bottom: 18px;
@@ -66,7 +73,8 @@ blockquote.medicamentos {
 }
 
 blockquote.imagenes {
-  font: 24px/30px italic Times, serif;
+  font: font-family: 'Roboto', sans-serif;
+  font-size: 20px;
   padding-left: 70px;
   padding-top: 18px;
   padding-bottom: 18px;
@@ -84,9 +92,9 @@ blockquote.imagenes {
 
 .rounded-image {
   border-radius: 50%;
-  width: /* desired width of the image */ ;
-  height: /* desired height of the image */ ;
-  object-fit: cover; /* ensures image fills container while maintaining aspect ratio */
+  width:;
+  height:;
+  object-fit: cover;
 }
 
 .aligncenter {
@@ -94,7 +102,7 @@ blockquote.imagenes {
 }
 
 body {
-  font-family: Arial, sans-serif;
+  font-family: font-family: 'Roboto', sans-serif;
   margin: 0;
   padding: 0;
   background-image: url("../images/background.jpeg");
